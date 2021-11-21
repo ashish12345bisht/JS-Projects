@@ -1,0 +1,72 @@
+.hidden{
+    display: none;
+}
+body{
+    margin: 0;
+    background-color: #A3B2C9;
+    font-family: poppins;
+}
+.header{
+    background-color: #E1B425;
+    padding: 0.5em 2em;
+}
+.far{
+    margin-right: 1em;
+}
+.add, .back{
+    background-color: #F0542B;
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    float: right;
+}
+.back a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #272727;
+}
+.add:hover{
+    background-color: antiquewhite;
+    transition: all 0.5s;
+}
+.notes{
+    margin-top: 50px;
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+.note{
+    background-color: antiquewhite;
+    margin: 1em;
+    width: 350px;
+    height: 200px;
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 1em;
+}
+.edit{
+    background-color: white;
+    border-radius: 2em;
+    border: none;
+    width: 4em;
+    object-fit: cover;
+    padding: 1em;
+}
+.edit:hover{
+    background-color: green;
+    transition: all 0.5s;
+}
+.delete{
+    background-color: white;
+    border-radius: 2em;
+    border: none;
+    object-fit: cover;
+    width: 4em;
+    padding: 1em;
+}
+.delete:hover{
+    background-color: red;
+    transition: all 0.5s;
+}
